@@ -1,3 +1,6 @@
+This project converts medical image format from kfb to more universal formats like tiff.
+kfb format is provided by http://www.kfbio.cn 
+
 1,
 ConsoleApplication1.exe "image.kfb" image num
 parameter1: absolute file path or relative file path
