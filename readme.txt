@@ -1,16 +1,16 @@
-1£¬
+1ï¼Œ
 ConsoleApplication1.exe "image.kfb" image num
-²ÎÊı1£º¾ø¶ÔÂ·¾¶»òÏà¶ÔÂ·¾¶¾ù¿É¡£
-²ÎÊı2£ºÊä³öÎÄ¼şÃû£¬Èç¹ûnumÎª2£¬ÔòÎÄ¼şÃû·Ö±ğÎªimage0.jpeg, image1.jpeg, image2.jpeg
-²ÎÊı3£ºnumÎª·Ö¸îµÄ¸öÊı£¬´Ó1¿ªÊ¼ÊÔ£¬ÊÇË®Æ½·Ö¸îµÄ¡£
+parameter1ï¼šabsolute file path or relative file path
+parameter2ï¼šoutput filename, if num is 2, then the filenames are separately: image0.jpeg, image1.jpeg, image2.jpeg
+parameter3ï¼šnum is the number of partition, from 1 on, horizontally.
 
 2,
 convert +append image*.jpeg image.jpeg
-²ÎÊı£º+append ±íÊ¾Ë®Æ½Æ´½Ó
+parameterï¼š+append means combining images horizontally
 
-3£¬
+3ï¼Œ
 convert image.jpeg -define tiff:tile-geometry=256x256 -compress LZW "ptif:image.tif"
-²ÎÊı:image.jpegÎªÊäÈëÍ¼Æ¬£¬LZWÎªÑ¹ËõËã·¨£¬image.tifÎªÊä³öÍ¼Æ¬
+parameter:image.jpeg is input image, LZW is compress algorithm,image.tif is output image
 
 
 
