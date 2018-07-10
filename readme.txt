@@ -15,5 +15,13 @@ parameter:+append means combining images horizontally
 convert image.jpeg -define tiff:tile-geometry=256x256 -compress LZW "ptif:image.tif"
 parameter:image.jpeg is input image, LZW is compress algorithm,image.tif is output image
 
+FAQs:
+1, warned that some dll files are missed
+install visual studio
 
+2, SHException
+the value of "num" in your command is too small
+
+3, where to download convert tool
+https://www.imagemagick.org/script/index.php
 
