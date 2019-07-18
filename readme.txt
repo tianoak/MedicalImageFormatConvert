@@ -1,5 +1,6 @@
 This project converts medical image format from kfb to more universal formats like tiff.
-kfb format is provided by http://www.kfbio.cn 
+kfb format is provided by http://www.kfbio.cn.
+For ImageOperationLib.dll, please contact http://www.kfbio.cn/contact.php
 
 1,
 ConsoleApplication1.exe "image.kfb" image num
